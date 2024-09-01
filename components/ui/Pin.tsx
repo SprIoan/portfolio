@@ -36,6 +36,11 @@ export const PinContainer = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onClick={() => {
+        // navigate to href but not in the current path
+          window.open("https://"+href, "_blank");
+
+      }}
     >
       <div
         style={{
