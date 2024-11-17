@@ -71,16 +71,16 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 1,
-      title: "Discover Lilaia - Travel Guide App",
-      des: "Explore the hidden treasures of the village of Lilaia, Greece, using this ultimate interactive travel guide.",
-      img: "/lilaia_pic.webp",
-      iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/gsap.svg", "/ts.svg"],
-      link: "lilaia.netlify.app",
+      id:0,
+      title: "Lio Tech - Official Company Website",
+      des: "A modern company website for Lio Tech, showcasing their vision and expertise.",
+      img: "/lio.webp",
+      iconLists: ["/re.svg", "/tail.svg", "/gsap.svg", "/vite.svg"],
+      link: "lio-tech.eu",
       imgType: "image",
-    },
+    } ,
     {
-      id: 2,
+      id: 1,
       title: "Brainwave - Modern UI/UX Experience",
       des: "A modern UI/UX experience for an ai chat app, with a focus on user engagement and retention.",
       img: "/brainwave.webp",
@@ -88,6 +88,15 @@ export const navItems = [
       link: "spr-brainwave.netlify.app",
       imgType: "image",
 
+    },
+    {
+      id: 2,
+      title: "Discover Lilaia - Travel Guide App",
+      des: "Explore the hidden treasures of the village of Lilaia, Greece, using this ultimate interactive travel guide.",
+      img: "/lilaia_pic.webp",
+      iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/gsap.svg", "/ts.svg"],
+      link: "lilaia.netlify.app",
+      imgType: "image",
     },
     {
       id: 3,
